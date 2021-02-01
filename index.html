@@ -20,31 +20,35 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <script src="https://kit.fontawesome.com/037d88db50.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- logo and nav -->
-  <header class="page_header row">
-    <div class="column">
-      <img class="header_logo_img" src="img/placeholder.svg" alt="logo">
+  <header class="page_header">
+    <div class="row m-1-2">
+      <div class="column">
+        <img class="header_logo_img" src="img/placeholder.svg" alt="logo">
+      </div>
+
+      <ul class="nav_icon column"> <!-- -->
+        <li class="nav_icon_item home">
+          <a href="#" class=""><i class="fas fa-home"></i><br>Home</a>
+        </li>
+        <li class="nav_icon_item page">
+          <a href="#" class=""><i class="fas fa-poll-h"></i><br>Pages</a>
+        </li>
+        <li class="nav_icon_item blog">
+          <a href="#" class=""><i class="fas fa-bullhorn"></i><br>Blog</a>
+        </li>
+        <li class="nav_icon_item portfolio">
+          <a href="#" class=""><i class="fas fa-briefcase"></i><br>Portfolio</a>
+        </li>
+        <li class="nav_icon_item mail">
+          <a href="#" class=""><i class="fas fa-envelope"></i><br>Mail</a>
+        </li>
+      </ul>
     </div>
-    <ul class="nav_icon column"> <!-- -->
-      <li class="nav_icon_item">
-        <a href="" class="">Home</a>
-      </li>
-      <li class="nav_icon_item">
-        <a href="" class="">Pages</a>
-      </li>
-      <li class="nav_icon_item">
-        <a href="" class="">Blog</a>
-      </li>
-      <li class="nav_icon_item">
-        <a href="" class="">Portfolio</a>
-      </li>
-      <li class="nav_icon_item">
-        <a href="" class="">Home</a>
-      </li>
-    </ul>
   </header>
   
   <!-- hero image part -->
@@ -55,7 +59,7 @@
   <main class="page_main">
     <!-- h1  -->
     <header class="row">
-      <h1 class="heading page_main_heading">Hey Guys! This is the Metrolics theme.<br>
+      <h1 class="heading page_main_heading">Hey Guys! This is the <b>Metrolics</b> theme.<br>
         It sports a responsive layout with a mobile layout.</h1>
     </header>
     
@@ -66,30 +70,33 @@
           <h3 class="heading page_section_heading">Things That We Do</h3>
           <p class="heading_text">Ask us what we can do for you</p>
         </div>
-        
-        <div class="section_contents column">
-          <!-- <img class="content_icon_img" src="img/placeholder.svg" alt="icon"> -->
+      
+        <div class="section_box column">
+          <img class="content_icon_img" src="img/placeholder.svg" alt="icon">
           <h4 class="content_box_title">Web Solutions</h4>
           <p class="content_box_excerpt">We are a fairly small, flexible design studio 
             that designs for print and web. We work flexibly with clients to fulfil 
             their design needs. Whether you need to create a brandfrom scratch, 
             including marketing materials</p>
         </div>
-        <div class="section_contents column">
+        <div class="section_box column">
+          <img class="content_icon_img" src="img/placeholder.svg" alt="icon">
           <h4 class="content_box_title">Web Solutions</h4>
           <p class="content_box_excerpt">We are a fairly small, flexible design studio 
             that designs for print and web. We work flexibly with clients to fulfil 
             their design needs. Whether you need to create a brandfrom scratch, 
             including marketing materials</p>
         </div>
-        <div class="section_contents column">
+        <div class="section_box column">
+          <img class="content_icon_img" src="img/placeholder.svg" alt="icon">
           <h4 class="content_box_title">Web Solutions</h4>
           <p class="content_box_excerpt">We are a fairly small, flexible design studio 
             that designs for print and web. We work flexibly with clients to fulfil 
             their design needs. Whether you need to create a brandfrom scratch, 
             including marketing materials</p>
         </div>
-        <div class="section_contents column">
+        <div class="section_box column">
+          <img class="content_icon_img" src="img/placeholder.svg" alt="icon">
           <h4 class="content_box_title">Web Solutions</h4>
           <p class="content_box_excerpt">We are a fairly small, flexible design studio 
             that designs for print and web. We work flexibly with clients to fulfil 
@@ -101,45 +108,55 @@
 
     <!-- What's up lately -->
     <section class="lately">
-      <div class="row m-col-2 l-col-3">
-        <div class="column special-project">
+      <div class="row m-col-3">
+        <div class="column span-full">
           <h3 class="heading page_section_heading">What's Up Lately?</h3>
             <p class="heading_text">Read up on our latest work</p>
         </div>
         
-        <div class="section_contents column span-full">
+        <div class="section_contents column">
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="work">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="camera icon">
-              <div class="date_banner">29<br>Nov.2013</div>     position figure it out -->
+              <p class="project_text img_footer_title">Sample Image Post</p> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="date_banner">29<br>Nov.2013</div>
+              <div class="icon">
+                <i class="fas fa-camera"></i>
+              </div>
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column">
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="work">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="camera icon">
-              <div class="date_banner">29<br>Nov.2013</div>     position figure it out -->
+              <p class="project_text img_footer_title">Sample Image Post</p> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="date_banner">29<br>Nov.2013</div>    
+              <div class="icon">
+                <i class="fas fa-camera"></i>
+              </div>
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column">
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="work">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="camera icon">
-              <div class="date_banner">29<br>Nov.2013</div>     position figure it out -->
+              <p class="project_text img_footer_title">Sample Image Post</p> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="date_banner">29<br>Nov.2013</div>   
+              <div class="icon">
+                <i class="fas fa-camera"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
+        
       </div>
     </section>
 
@@ -155,61 +172,79 @@
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column"> 
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column"> 
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column"> 
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column"> 
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
         <div class="section_contents column"> 
           <figure class="content_box">
             <img class="content_img" src="img/placeholder.svg" alt="project">
             <figcaption class="img_cation">
-              <h4 class="img_footer">Sample Image Post</h4> 
-              <p class="img_footer_text">Photography</p>
-              <!-- <img class="img_footer_icon" src="img/placeholder.svg" alt="file icon"> -->
+              <h4 class="project_text img_footer">Sample Image Post</h4> 
+              <p class="project_text img_footer_text">Photography</p>
+              <div class="icon">
+                <i class="far fa-file"></i>
+              </div>  
             </figcaption>
           </figure>
+          <div class="overlay"></div>
         </div>
       </div>  
     </section>
@@ -258,50 +293,52 @@
 
   <!-- footer -->
   <footer class="page_footer">
-    <div class="row m-col-2 l-col-4">
+    <div class="footer_start row m-col-2 l-col-4">
       <div class="footer_profile column span-full">
         <img class="footer_profile_img" src="img/placeholder.svg" alt="profile">
-        <h5 class="footer_profile_name">Peewee Herman</h5>
-        <p class="footer_profile_excerpt">Peewee has over 10 years experience in the industry. He is our Creative Director, 
-          digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. 
-          Before starting the company Peewee worked as a designer and studio manager for a design house 
-          who boasted a number of big name clients.
-        </p>
-      </div><hr>
+        <div class="footer_profile_text">
+          <h5 class="footer_profile_name">Peewee Herman</h5>
+          <p class="footer_profile_excerpt">Peewee has over 10 years experience in the industry. He is our Creative Director, 
+            digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. 
+            Before starting the company Peewee worked as a designer and studio manager for a design house 
+            who boasted a number of big name clients.
+          </p>
+        </div>
+      </div>
       
       <!-- about us -->
-      <div class="column">
-        <h4 class="footer_title about_us_title">About us</h4><hr>
+      <div class="column about">
+        <h4 class="footer_title about_us_title">About us</h4>
         <img class="footer_img about_us_img" src="img/placeholder.svg" alt="about us">
       </div>
 
       <!-- flickr photos -->
-      <div class="column">
-        <h4 class="footer_title flickr_photo_title">Flickr Photos</h4><hr>
+      <div class="column flickr">
+        <h4 class="footer_title flickr_photo_title">Flickr Photos</h4>
         <img class="footer_img flickr_photo_img" src="img/placeholder.svg" alt="photos">
       </div>
 
       <!-- tweets -->
-      <div class="column">
-        <h4 class="footer_title recent_tweets_title">Recent Tweets</h4><hr>
+      <div class="column tweets">
+        <h4 class="footer_title recent_tweets_title">Recent Tweets</h4>
         <img class="footer_img tweets_img" src="img/placeholder.svg" alt="tweets">
       </div>
 
       <!-- neswletter -->
-      <div class="column">
-        <h4 class="footer_title newsletter_title">Newsletter</h4><hr>
+      <div class="column news">
+        <h4 class="footer_title newsletter_title">Newsletter</h4>
         <img class="footer_img newsletter_img" src="img/placeholder.svg" alt="news letter">
+      </div>
+      <!-- color theme -->
+      <div class="color_row_bar column span-full">
+        <div class="color_box a"></div>
+        <div class="color_box b"></div>
+        <div class="color_box c"></div>
+        <div class="color_box d"></div>
+        <div class="color_box e"></div>
       </div>
     </div>
 
-    <!-- color theme -->
-    <div class="color_row_bar row">
-      <div class="color_box"></div>
-      <div class="color_box"></div>
-      <div class="color_box"></div>
-      <div class="color_box"></div>
-      <div class="color_box"></div>
-    </div>
   </footer>
 
   <!-- Add your site or application content here -->
