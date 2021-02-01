@@ -355,6 +355,14 @@ figcaption > h4, h5, p {
     grid-column-start: 1;
     grid-column-end: -1;
   }
+  .project_full {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .special-medium {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 
