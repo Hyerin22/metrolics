@@ -88,6 +88,8 @@ img {
   width: 100%;
 }
 
+/* text decoration */
+
 h1 {
   color: #000;
 }
@@ -151,6 +153,8 @@ figcaption > h4, h5, p {
 .heading {
   text-align: center;
 }
+
+/* navigation */
 .nav_icon{
   display: flex;
   padding: 0;
@@ -190,12 +194,12 @@ figcaption > h4, h5, p {
   margin: 0;
 }
 
-
-
-
 .header_logo_img {
   height: 4rem;
 }
+
+
+/* footer */
 .footer_profile {
   display: flex;
   flex-direction: row;
@@ -233,7 +237,9 @@ figcaption > h4, h5, p {
   margin: 0.4rem 0.6rem;
 }
 
-/* position figure out */
+
+/* should figure out */
+/* color theme */
 .color_row_bar{
   margin: 1rem;
   width:40%;
@@ -266,6 +272,8 @@ figcaption > h4, h5, p {
   background-color: #166ba2;
   flex: 1;
 }
+
+/* hover effect */
 .section_contents{
   position: relative;
 }
@@ -338,15 +346,10 @@ figcaption > h4, h5, p {
     grid-template-columns: 1fr 2fr;
   }
   
-
-
   .span-full {
     grid-column-start: 1;
     grid-column-end: -1;
   }
-  
-
-
 }
 
 
@@ -360,8 +363,6 @@ figcaption > h4, h5, p {
     grid-column-start: 1;
     grid-column-end: -1;
   }
-
-  
 }
 
 
@@ -391,11 +392,6 @@ figcaption > h4, h5, p {
   .section_none{
     display: none;
   }
-
-
-  
-
-  
 }
 
 
