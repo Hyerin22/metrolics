@@ -275,7 +275,7 @@ figcaption > h4, h5, p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #19b2de;
+  background-color: #27afd5;
   opacity: 0;
 }
 .section_contents:hover .overlay {
@@ -298,6 +298,9 @@ figcaption > h4, h5, p {
     display: none;
   }
   .news{
+    display: none;
+  }
+  .sponsors{
     display: none;
   }
   .footer_profile_img{
