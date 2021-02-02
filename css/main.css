@@ -115,7 +115,24 @@ p{
 b{
   color: #1eafde;
 }
+.img_footer_title {
+  font-weight: bold;
+}
+.img_footer_text {
+  font-size: 0.7rem;
+}
 
+figcaption > h4, h5, p {
+  margin: 0;
+}
+
+.section_contents:hover .overlay {
+  opacity: 0.5;
+}
+
+.heading {
+  text-align: center;
+}
 /* ==========================================================================
    LAYOUT
    ========================================================================== */
@@ -134,25 +151,12 @@ figcaption{
   background-color: #19b2de;
   color: white;
 }
-.img_footer_title {
-  font-weight: bold;
-}
-.img_footer_text {
-  font-size: 0.7rem;
-}
-
-figcaption > h4, h5, p {
-  margin: 0;
-}
 
 .column {
   background-color: rgb(230, 210, 184);
   margin: 1rem;
 }
 
-.heading {
-  text-align: center;
-}
 
 /* navigation */
 .nav_icon{
@@ -240,16 +244,18 @@ figcaption > h4, h5, p {
 
 /* should figure out */
 /* color theme */
+.footer_start{
+  position: relative;
+}
+
 .color_row_bar{
-  margin: 1rem;
+  margin: 0;
   width:40%;
   height: 1rem;
   display: flex;
   float: right;
-  /* justify-content: flex-end; */
-  /* position: absolute; */
-  /* right: 0;
-  bottom: 0; */
+  position: absolute;
+  
 }
 
 .a{
@@ -286,9 +292,7 @@ figcaption > h4, h5, p {
   background-color: #27afd5;
   opacity: 0;
 }
-.section_contents:hover .overlay {
-  opacity: 0.5;
-}
+
 
 
 
@@ -317,7 +321,10 @@ figcaption > h4, h5, p {
     height: 12rem;
   }
 
-
+  .color_row_bar{
+    right: 20%;
+    width: 60%;
+  }
 }
 
 
@@ -329,6 +336,11 @@ figcaption > h4, h5, p {
     max-width: 70rem;
     margin: 0 auto;
   }
+  .color_row_bar{
+    right: 0;
+    bottom: 0;
+  }
+
   .m-col-2 {
     grid-template-columns: 1fr 1fr;
   }
