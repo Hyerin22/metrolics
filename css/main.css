@@ -107,10 +107,15 @@ p{
 }
 .footer_profile_name{
   margin-left: 1.5rem;
+  color: white;
 }
 .footer_profile_excerpt{
+  color: white;
   margin-left: 1.5rem;
   text-align: left;
+}
+.footer_title{
+  color: white;
 }
 b{
   color: #1eafde;
