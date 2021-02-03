@@ -207,15 +207,21 @@ figcaption{
 .nav_icon_item{
   padding-top: 0.6rem;
   text-align: center;
-  
+  position: relative;
 }
 .nav_icon_item > a {
   text-decoration: none;
   color: white;
 }
-.nav_icon > .fa-file {
-  margin: 0;
-}
+
+/* .nav_icon_item::after{
+  content: ">";
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  color: white;
+} */
+
 
 .header_logo_img {
   height: 4rem;
@@ -285,7 +291,7 @@ figcaption{
   flex: 1;
 }
 .c{
-  background-color: #de6262;
+  background-color: #de6262; 
   flex: 1;
 }
 .d{
@@ -458,7 +464,9 @@ figcaption{
   }
 
   .heroimage {
-    background-color: #ebebeb;
+    width: 100%;
+    background-color: #d9d8d8;
+    margin: 0;
   }
 
   .page_footer {
