@@ -344,7 +344,7 @@ figcaption{
     margin: 0 auto;
   }
   .color_row_bar{
-    right: 0;
+    right: 1rem;
     bottom: 0;
   }
 
