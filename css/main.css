@@ -242,7 +242,6 @@ figcaption{
 }
 
 
-/* should figure out */
 /* color theme */
 .footer_start{
   position: relative;
@@ -313,6 +312,9 @@ figcaption{
     display: none;
   }
   .sponsors{
+    display: none;
+  }
+  .nav_icon{
     display: none;
   }
   .footer_profile_img{
