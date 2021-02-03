@@ -238,6 +238,9 @@ figcaption{
   height: 5rem;
   border-radius: 50%;
 }
+.photo {
+  width: 100%;
+}
 
 
 
@@ -363,6 +366,11 @@ figcaption{
     max-width: 70rem;
     margin: 0 auto;
   }
+  .sub-grid{
+    display: grid;
+    
+
+  }
   .color_row_bar{
     right: 1rem;
     bottom: 0;
@@ -472,8 +480,11 @@ figcaption{
   .page_footer {
   background-color: #16242f;
 }
-
-
+.inverted{
+  color: white;
+  text-align: left;
+  
+}
 
 
 /*
